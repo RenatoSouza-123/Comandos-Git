@@ -1,0 +1,13 @@
+Comandos relacionados às branches em git. Com as branches podemos trabalhar em diferentes versões ao mesmo tempo:
+
+| Comando | Descrição
+-----------------------------------------------------------------------------------------------------------------
+| git branch                       | lista todas as branches. A branch com * é a que está em uso no momento
+| git branch <nome-da-branch>      | cria uma branch
+| git switch <nome-da-branch>      | para mudar de branch
+| git commit -a -m "mensagem"      | add e commit em apenas uma linha
+| git checkout <nome-da-branch>    | outra forma de mudar de branch
+| git switch -c <nome-da-branch>   | cria uma branch e muda para ela
+| git branch -D <nome-da-branch>   | para deletar uma branch
+| git branch -v                    | mostra mais informações sobre as branches
+| git checkout -b <nome-da-branch> | outra forma de criar e mudar para uma nova branch
