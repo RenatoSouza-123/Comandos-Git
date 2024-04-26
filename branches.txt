@@ -1,6 +1,6 @@
 Comandos relacionados às branches em git. Com as branches podemos trabalhar em diferentes versões ao mesmo tempo:
 
-| Comando | Descrição
+| Comando                          | Descrição
 -----------------------------------------------------------------------------------------------------------------
 | git branch                       | lista todas as branches. A branch com * é a que está em uso no momento
 | git branch <nome-da-branch>      | cria uma branch
