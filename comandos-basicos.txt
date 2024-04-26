@@ -1,0 +1,11 @@
+Comandos básicos para começar a trabalhar com repositórios git:
+
+| Comando |  Descrição                           |
+--------------------------------------------------
+| cd      |  para mudar de diretório             |
+| cd ..   |  para voltar ao diretório anterior   |
+| ls      |  para listar o conteúdo do diretório |
+| mkdir   |  para criar um novo diretório        |
+| touch   |  para criar um novo arquivo          |
+| rm      |  para deletar um arquivo             |
+| rm -rf  |  para deletar um diretório           | 
