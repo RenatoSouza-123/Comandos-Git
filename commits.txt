@@ -1,8 +1,8 @@
 Comandos para adicionar arquivos em stage, fazer commits, averiguar o status do diretório, criar um repositório, entre outros:
 
 
-| Comando                  | Descrição
----------------------------------------                                   
+| Comando                  | Descrição  
+------------------------------------------------------------------------------------                                   
 | git status               | mostra o status do repositório em que se está
 | git init                 | cria um novo repositório
 | ls -a                    | mostra todos os arquivos, incluindo os ocultos
