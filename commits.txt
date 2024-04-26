@@ -1,0 +1,18 @@
+Comandos para adicionar arquivos em stage, fazer commits, averiguar o status do diretório, criar um repositório, entre outros:
+
+
+| Comando                  | Descrição
+---------------------------------------                                   
+| git status               | mostra o status do repositório em que se está
+| git init                 | cria um novo repositório
+| ls -a                    | mostra todos os arquivos, incluindo os ocultos
+| git add                  | seleciona as mudanças que queremos incluir no commit
+| git add .                | coloca em stage todas as alterações
+| git commit               | realiza o commit das mudanças
+| git commit -m "mensagem" | adiciona ao commit uma mensagem que resume a alteração
+| git commit --amend       | para corrigir o commit anterior
+| git log                  | retorna um log dos commits
+| code .                   | abre o diretório no vs code
+| git log --abbrev-commit  | mostra uma  versão abreviada dos commits
+| git log --oneline        | mostra todos os commits em uma linha
+| rm -rf .git              | para excluir um repositório
