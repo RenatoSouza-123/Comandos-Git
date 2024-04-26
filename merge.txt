@@ -1,0 +1,8 @@
+Comando para fazer um merge entre uma branch e outra:
+
+| Comando                    | Descrição
+-----------------------------------------------------------------------------------------
+| git merge <nome-da-branch> | faz o merge com outra branch a partir da branch de destino
+
+Digamos, por exemplo, que há, além da main, uma branch chamada exemplo-merge. Se quisermos transferir o conteúdo da branch exemplo-merge para main, temos de estar na branch main e digitar git merge exemplo-main.
+Algumas vezes podemos encontrar conflitos, que podem ser facilmente resolvidos através do VS Code.
