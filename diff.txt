@@ -1,0 +1,8 @@
+Comandos para visualizar as diferenças feitas ao longo do tempo:
+
+| Comando                   | Descrição
+---------------------------------------------------------------------------------------------------------------
+| git diff                  | lista todas as mudanças do diretório que ainda não estão em stage para o próximo commit
+| git diff HEAD             | lista todas as mudanças a partir do último commit, staged e unstaged
+| git diff branch1..branch2 | compara as mudanças entre duas branches
+| git diff commit1..commit2 | compara dois commits (colocar o código hash, que pode ser obtido ao se fazer um git log)
