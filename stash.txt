@@ -1,0 +1,11 @@
+Com stashing é possível "esconder" temporariamente as mudanças feitas em determinados arquivos:
+
+| Comando                   | Descrição
+-----------------------------------------------------------
+| git stash                 | salva alterações que não estão prontas para um commit; podemos esconder essas mudanças e voltar a elas depois
+| git stash pop             | remove a alteração mais recentemente escondida e a aplica novamente para o diretório em uso
+| git stash apply           | podemos aplicar alterações no que se encontra em stash
+| git stash list            | lista todos os stash's
+| git stash apply stash@{1} | para aplicar um stash específico
+| git stash drop stash@{1}  | para remover um stash específico
+| git stash clear           | para apagar todos os stash's
