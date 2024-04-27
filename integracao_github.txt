@@ -1,0 +1,10 @@
+Usando git para se conectar ao GitHub:
+
+| Comando                     | Descrição
+-------------------------------------------------------------------------------------------------------------------
+| git clone <link-do-github>  | clona um repositório do github para a máquina local
+| git remote -v               | lista todos os remotes. Antes de fazer um push para o github, precisamos descrever para o git nosso repositório remoto no github. Precisamos definir um "destino" para fazer o push
+| git remote add <name> <url> | adiciona um novo remote - usado para criar um repositório no github a partir de um repositório já existente
+| git push <remote> <branch>  | faz um push para o github (muito comum: git push origin master)
+| git branch -M main          | renomear de master para main
+| git branch -r               | lista as branches em remote
