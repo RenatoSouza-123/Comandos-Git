@@ -1,0 +1,15 @@
+Navegando pelos commits:
+
+| Comando                                | Descrição
+-------------------------------------------------------------------------------------------------------------------
+| git checkout <commit-hash>             | volta para um determinado commit
+| git checkout HEAD~1                    | refere-se ao commit antes de HEAD (parent)
+| git checkout HEAD~2                    | refere-se a 2 commits antes de HEAD (grandparent)
+| git checkout HEAD <nome-do-arquivo>    | descarta quaisquer mudanças no arquivo, revertendo de volta para HEAD
+| git checkout -- <nome-do-arquivo>      | alternativa para descartar alterações
+| git restore <nome-do-arquivo>          | restaura o arquivo para o conteúdo da HEAD
+| git restore --source HEAD~1 home.html  | restaura os conteúdos de home.html (exemplo) para o estado do commit anterior ao HEAD
+| git restore --staged <nome-do-arquivo> | para tirar de stage algum arquivo
+| git reset <commit-hash>                | vai resetar o repositório de volta a um commit específico
+| git reset --hard HEAD~1                | vai deletar o último commit e as mudanças associadas
+| git revert <commit-hash>               | cria um novo commit que reverte/desfaz mudanças de um commit. Como resulta em um novo commit, será requisitada uma nova mensagem de commit
