@@ -1,0 +1,7 @@
+Comandos para realizar fetch e pull:
+
+| Comando | Descrição
+-------------------------------------------------------------------------------------------------------------------
+| git fetch <remote>          | realiza um fetch de branches e histórico de um repositório específico
+| git fetch <remote> <branch> | faz um fetch de uma branch específica
+| git pull <remote> <branch>  | para fazer o pull. A branch atual importa. Pulls podem resultar em conflitos de merge
